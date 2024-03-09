@@ -30,39 +30,30 @@ nav ul li a {
   transition: background-color 0.5s;
 
 }
- h1{
-display: flex;
-justify-content: center;
-
+ 
+.test{
+    text-align: center;
+    padding: 20px;
 }
-
 div img{
-display: flex;
-justify-content: center;
-margin-left: : 50px;
-margin-right: 50px;
-padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: : 50px;
+    margin-right: 50px;
+    padding: 10px;
 }
-footer{
-display: flex;
-justify-content: center;
-margin: 30px;
 
-
-}
-footer h3{
-margin top: 30px;
-
-
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .container{
   align-items: center;
   float:left;
-
 }
-.image{
-float: left;
-padding: 5px;
-
-
-}
+ 
