@@ -49,7 +49,23 @@ justify-content: center;
 }
 
 
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #c60e0e;
+    padding-left: 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Default state for play icons */
+}
 
+.movie-item:hover .play-icon {
+    opacity: 1; /* Visible on hover */
+}
 
 
 
