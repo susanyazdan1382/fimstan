@@ -63,7 +63,7 @@ justify-content: center;
     opacity: 0; /* Default state for play icons */
 }
 
-.movie-item:hover .play-icon {
+.item:hover .play-icon {
     opacity: 1; /* Visible on hover */
 }
 
