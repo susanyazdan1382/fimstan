@@ -47,7 +47,7 @@ display: flex;
 justify-content: center;
 
 }
-.movie-item {
+.item {
     background-color: #3e3e3e;
     border: 1px solid #ddd;
     border-radius: 5px;
