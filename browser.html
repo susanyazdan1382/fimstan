@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>video</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+
+    .page_div{
+      margin-top: 50px;
+    }
+           .pagination_section {
+               position: relative;
+           }
+
+           .pagination_section a {
+               color: white;
+               padding: 10px 20px;
+               text-decoration: none;
+           }
+
+
+           .pagination_section a:hover:not(.active) {
+               background-color: #031F3B;
+               color: white;
+           }
+
+           a:nth-child(5) {
+
+               color: white;
+           }
+
+           a:nth-child(1) {
+               font-weight: bold;
+           }
+
+           a:nth-child(7) {
+               font-weight: bold;
+           }
+
+           .center {
+               margin: 80px;
+               padding: 50px;
+               width: 700px;
+               height: 200px;
+               border: 2px solid white;
+              justify-content: center;
+           }
+
+
+       </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+
+          <li><a href="movie.html"><i class="fa-solid fa-film"> Movie </i> </a> </li>
+          <li><a href="index.html"><i class="fa-solid fa-house"> Home </i></a> </li>
+
+        </ul>
+      </nav>
+    </header>
+
+
+<h1>VIDEO</h1>
+
+<div class="images">
+  <video width="1500" height="500" controls >
+<source src="images/jumanji.mp4" type="video/mp4"  >
+Your browser does not support HTML video.
+
+</video>
+</div>
+
+<div class="page_div">
+  <center>
+
+          <div class="pagination_section">
+              <a href="index.html">
+                  << Previous
+              </a>
+              <a href="index.html"
+                 title="Algorithm">
+                  1
+              </a>
+              <a href="detail.html"
+                 title="DataStructure">
+                  2
+              </a>
+              <a href="detail.html"
+                 title="Languages">
+                  3
+              </a>
+              <a href="detail.html">
+              Next >>
+              </a>
+          </div>
+
+  </center>
+</div>
+  </body>
+</html>
