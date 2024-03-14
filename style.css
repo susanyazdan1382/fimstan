@@ -66,8 +66,9 @@ h3{
       display: flex;
       justify-content: center;
    }
-/* 
-   @keyframes fadeinout{
+
+
+ @keyframes fadeinout{
 0%{
   opacity: 0;
 }
@@ -79,15 +80,6 @@ h3{
 }
 
    }
-
-
-
-
-. item:hover{
-animation: fadeinout 3s ease infinite;
-
-} */
-
 
   .play{
   color:#1B1A55;
@@ -107,6 +99,14 @@ animation: fadeinout 3s ease infinite;
     display: flex;
     justify-content: center;
 }
+
+
+.item:hover{
+animation: fadeinout 3s ease-in-out infinite;
+}
+
+
+
 
    .item{
 
