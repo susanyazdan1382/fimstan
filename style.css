@@ -32,10 +32,16 @@ nav ul li a:hover, nav ul li a:focus {
    background-color: #E50914;
 }
 
-.images {
+
+
+
+.images  {
+
     display: flex;
     justify-content: center;
+    padding: 2
 }
+
 
 h5{
      display: flex;
@@ -60,8 +66,50 @@ h3{
       display: flex;
       justify-content: center;
    }
+/* 
+   @keyframes fadeinout{
+0%{
+  opacity: 0;
+}
+50%{
+  opacity: 1;
+}
+100%{
+  opacity: 0;
+}
 
-   .item {
+   }
+
+
+
+
+. item:hover{
+animation: fadeinout 3s ease infinite;
+
+} */
+
+
+  .play{
+  color:#1B1A55;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding:30px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play a{
+  width: 50px;
+  background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+   .item{
+
        background-color: #3e3e3e;
        border: 1px solid #ddd;
        border-radius: 3px;
@@ -69,7 +117,7 @@ h3{
        flex-wrap: wrap;
        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
        position: relative;
-       padding: 10px;
+       padding: 20px;
        margin:50px;
    }
 
@@ -79,7 +127,7 @@ h3{
        left: 50%;
        transform: translate(-50%, -50%);
        font-size: 3rem;
-       color: #c60e0e;
+  ``     color: #c60e0e;
        padding-left: 10px;
        border-radius: 100%;
        cursor: pointer;
@@ -101,12 +149,6 @@ h3{
       width: 100%;
    }
 
-form{
-     margin: 20PX;
-     padding: 20PX;
-     display: flex;
-     justify-content: center;
-}
 .box {
     display: flex;
     justify-content: center;
